@@ -51,7 +51,7 @@ node scripts/collect-changes.mjs [base-ref]
 ## Present Results to User
 
 ```markdown
-**Title:** <imperative, under 70 characters, no trailing period>
+**Title:** <type>(<scope>): <imperative summary, under 70 characters, no trailing period>
 
 ## What
 <1-3 sentences: what changes for users or callers>
@@ -70,6 +70,9 @@ node scripts/collect-changes.mjs [base-ref]
 ```
 
 Rules:
+- Format the title as a Conventional Commit: `feat`, `fix`, `docs`,
+  `refactor`, `chore`, `ci`, or `test`, with an optional scope
+  (`feat(auth): add passkey login`).
 - Describe behavior, not a file-by-file changelog.
 - Leave out sections that would be empty, except Testing.
 - Don't claim tests passed unless you ran them or saw them pass.

@@ -31,7 +31,7 @@ Invoke a skill by name, for example `/read-only`, or describe the task and let t
 ```bash
 npm install
 node skills/create-skill/scripts/create-skill.mjs <name> "<description>" [--scripts]
-git commit -am "Add <name> skill"
+git commit -am "feat(<name>): add <name> skill"
 npm run build   # validates every committed skill and writes dist/index.json
 ```
 

@@ -50,3 +50,17 @@ npm run build
 ```
 
 It fails on missing or invalid frontmatter, a name that doesn't match its directory, a non-executable script, or a duplicate name. CI runs the same script.
+
+## Commit Messages
+
+Use [Conventional Commits](https://www.conventionalcommits.org): `<type>(<scope>): <summary>`.
+
+- Types: `feat`, `fix`, `docs`, `refactor`, `chore`, `ci`, `test`
+- Scope: the skill name, or `ci`/`scripts` for repo tooling
+- Summary: imperative, lowercase, no trailing period, under 72 characters
+
+```
+feat(read-only): add read-only mode skill
+fix(pr-description): handle renamed files in collect-changes
+ci: bump setup-node to v5
+```
