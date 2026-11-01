@@ -1,0 +1,11 @@
+{
+  "name": "@sankalpaacharya/skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-discovery-index.mjs https://example.com/skills"
+  },
+  "dependencies": {
+    "yaml": "2.9.0"
+  }
+}
