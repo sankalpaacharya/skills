@@ -9,7 +9,7 @@ Agent skills for Claude Code, Cursor, Copilot, and other coding agents. Follows 
 | [read-only](skills/read-only/SKILL.md) | Inspect and explain freely, but ask before any action that changes state | `npx skills add sankalpaacharya/skills --skill read-only` |
 | [create-skill](skills/create-skill/SKILL.md) | Scaffold a new skill with valid frontmatter and an optional `.mjs` script | `npx skills add sankalpaacharya/skills --skill create-skill` |
 | [pr-description](skills/pr-description/SKILL.md) | Write a PR title and body from the branch's commits and diff | `npx skills add sankalpaacharya/skills --skill pr-description` |
-| [db-schema-diff](skills/db-schema-diff/SKILL.md) | Find the branch's database schema changes and draw BEFORE/AFTER diagrams in Eraser; replies with only the link | `npx skills add sankalpaacharya/skills --skill db-schema-diff` |
+| [db-changes](skills/db-changes/SKILL.md) | Draw the branch's database schema changes as BEFORE and AFTER diagrams in Eraser and reply with the link | `npx skills add sankalpaacharya/skills --skill db-changes` |
 
 Install everything:
 
